@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949865015350",
+    "project_id": "lectorkeroyume",
+    "storage_bucket": "lectorkeroyume.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949865015350:android:b58140e5c63ec9476e1097",
+        "android_client_info": {
+          "package_name": "com.example.lectorkeroyume"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj0PGDlkU2oDaLXD2q35EQ-rcm5EhIC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
