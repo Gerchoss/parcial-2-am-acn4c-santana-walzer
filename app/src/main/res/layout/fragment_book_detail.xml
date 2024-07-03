@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Imagen de portada del manga -->
+        <ImageView
+            android:id="@+id/imageViewCover"
+            android:layout_width="179dp"
+            android:layout_height="333dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ranma" />
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/imageViewCover"
+            android:layout_toRightOf="@id/imageViewCover"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="Title" />
+
+        <!-- Autor -->
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_toEndOf="@id/imageViewCover"
+            android:layout_toRightOf="@id/imageViewCover"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Author" />
+
+        <!-- Editorial -->
+        <TextView
+            android:id="@+id/textViewPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewAuthor"
+            android:layout_toEndOf="@id/imageViewCover"
+            android:layout_toRightOf="@id/imageViewCover"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Publisher" />
+
+        <!-- País de Origen -->
+        <TextView
+            android:id="@+id/textViewOriginCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewPublisher"
+            android:layout_toEndOf="@id/imageViewCover"
+            android:layout_toRightOf="@id/imageViewCover"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Origin Country" />
+
+        <!-- País de Impresión -->
+        <TextView
+            android:id="@+id/textViewPrintingCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewOriginCountry"
+            android:layout_toEndOf="@id/imageViewCover"
+            android:layout_toRightOf="@id/imageViewCover"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Printing Country" />
+
+        <!-- Género -->
+        <TextView
+            android:id="@+id/textViewGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewPrintingCountry"
+            android:layout_toEndOf="@id/imageViewCover"
+            android:layout_toRightOf="@id/imageViewCover"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Genre" />
+
+        <!-- Sinopsis -->
+        <TextView
+            android:id="@+id/textViewSynopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/imageViewCover"
+            android:paddingTop="16dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:paddingRight="16dp"
+            android:text="Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines." />
+
+    </RelativeLayout>
+</ScrollView>

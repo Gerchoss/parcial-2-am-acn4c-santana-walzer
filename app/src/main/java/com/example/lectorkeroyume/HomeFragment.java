@@ -66,10 +66,6 @@ public class HomeFragment extends Fragment {
     }
 
     // Método para manejar el clic del botón desde el XML
-    public void openBookDetailActivity() {
 
-        Intent intent = new Intent(getActivity(), BookDetailActivity.class);
-        startActivity(intent);
-    }
 }
 
