@@ -13,7 +13,8 @@
     <string name="mail">Correo Electronico</string>
     <string name="password">Contraseña</string>
     <string name="login">Iniciar Sesión</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
