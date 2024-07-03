@@ -116,7 +116,7 @@
             android:paddingLeft="16dp"
             android:paddingEnd="16dp"
             android:paddingRight="16dp"
-            android:text="Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines. Long synopsis that may span multiple lines." />
+            android:text="La historia gira en torno a Ranma Saotome, un joven de 16 años que fue entrenado en las artes marciales desde que era pequeño. Durante uno de sus entrenamientos, cae a un estanque encantado, en los estanques de Jusenkyo, llamado Estanque de la mujer pelirroja ahogada (Estanque de la chica ahogada en Hispanoamérica), que hace que se convierta en mujer cada vez que tiene contacto con el agua fría, y para poder regresar a su estado natural (de hombre) tiene que hacer contacto con el agua caliente. Durante la serie, Ranma intenta librarse de su maldición, mientras que debe lidiar con su compromiso de matrimonio con la adolescente Akane Tendo, el cual fue pactado varios años atrás por los padres de ambos jóvenes. " />
 
     </RelativeLayout>
 </ScrollView>

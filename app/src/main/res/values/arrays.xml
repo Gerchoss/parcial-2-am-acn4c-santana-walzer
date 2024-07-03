@@ -5,9 +5,9 @@
         <item>Reply to all</item>
     </string-array>
 
-    <string-array name="reply_values">
-        <item>reply</item>
-        <item>reply_all</item>
+    <string-array name="sucursales">
+        <item>Sucursal CABA</item>
+        <item>Sucursal Rosario</item>
     </string-array>
 
     <string-array name="language_entries">

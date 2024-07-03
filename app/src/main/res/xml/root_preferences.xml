@@ -4,15 +4,15 @@
 
         <EditTextPreference
             app:key="signature"
-            app:title="@string/signature_title"
+            app:title="@string/user_name"
             app:useSimpleSummaryProvider="true" />
 
         <ListPreference
             app:defaultValue="reply"
             app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
+            app:entryValues="@array/sucursales"
             app:key="reply"
-            app:title="@string/reply_title"
+            app:title="@string/retiro"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
@@ -44,15 +44,15 @@
 
         <SwitchPreferenceCompat
             app:key="notification"
-            app:title="Enable Notifications" />
+            app:title="Notifiones Activas" />
 
         <SwitchPreferenceCompat
-            app:key="dark_mode"
-            app:title="Dark Mode" />
+            app:key="vibration"
+            app:title="Vibración" />
 
         <SwitchPreferenceCompat
-            app:key="auto_update"
-            app:title="Auto Update" />
+            app:key="imageneshd"
+            app:title="Imagenes en alta calidad" />
 
     </PreferenceCategory>
 
