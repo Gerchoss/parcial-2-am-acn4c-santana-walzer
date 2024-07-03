@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutFragment">
+    android:background="@color/keroyumeblue">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/welcome" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desde nuestra fundación en 2001, nos hemos destacado en el sector del alquiler de mangas como pioneros en nuestra región."
+            android:textSize="20dp"
+            android:textColor="@color/keroyume"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:id="@+id/mangaImageView"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            android:src="@drawable/manga"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con una pasión arraigada por la cultura y el arte japoneses, nuestra empresa se ha dedicado a proporcionar acceso a una amplia colección de mangas que abarca géneros y estilos diversos. Nos enorgullecemos de ofrecer un servicio personalizado y accesible que permite a nuestros clientes disfrutar de la riqueza narrativa y visual de las obras más destacadas del manga."
+            android:textSize="20dp"
+            android:textColor="@color/keroyume"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:id="@+id/proximamenteImageView"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            android:src="@drawable/proximamente"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Próximamente, ampliaremos nuestra oferta importando figuras directamente desde Japón para enriquecer la experiencia de nuestros usuarios."
+            android:textSize="20dp"
+            android:textColor="@color/keroyume"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© Keroyume 2024 - Todos los Derechos reservados"
+            android:textSize="12dp"
+            android:textColor="@color/keroyume"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
